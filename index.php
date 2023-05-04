@@ -46,7 +46,6 @@
 			}
 			?>
 			<input type="submit" value="Valider les cartes">
-		</form>
 	</div>
 
 	<?php
