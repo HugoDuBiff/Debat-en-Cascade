@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1>Bienvenue sur le jeu de débat</h1>
+		<h1>Bienvenue sur le jeu des débat</h1>
 		<form method="get" action="jeu.php">
 			<label for="nbJoueurs">Nombre de joueurs :</label>
 			<input type="number" name="nbJoueurs" id="nbJoueurs" required>
