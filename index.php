@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+<form action="jeu.php" method="get">
+  <label for="nbJoueurs">Nombre de joueurs :</label>
+  <input type="number" name="nbJoueurs" id="nbJoueurs" required>
+  <br>
+  <label for="debat">Débat :</label>
+  <input type="text" name="debat" id="debat" required>
+  <br>
+  <input type="submit" value="Commencer le jeu">
+</form>
+
+
+
 <head>
 	<title>Débat en Cascade</title>
 	<meta charset="utf-8">
