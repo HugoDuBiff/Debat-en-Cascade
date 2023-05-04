@@ -1,62 +1,80 @@
-/* Couleur bleu marine */
-:root {
-  --primary-color: #0D47A1;
-  --secondary-color: #1976D2;
-  --tertiary-color: #BBDEFB;
-  --inverse-color: #FFF;
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Style du corps de la page */
-body {
-  background-color: var(--inverse-color);
-  color: var(--primary-color);
-  font-family: Arial, sans-serif;
-}
-
-/* Style pour les en-têtes de section */
-h1, h2, h3 {
-  color: var(--secondary-color);
-}
-
-/* Style pour les liens */
-a {
-  color: var(--tertiary-color);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-body {
-  background-color: #f2f2f2;
-  font-family: Arial, sans-serif;
+/* Styles pour le conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
 }
 
+/* Styles pour le titre */
 h1 {
-  color: #004d80;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-#joueurs {
+/* Styles pour le formulaire */
+form {
+  margin-bottom: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles pour les cartes */
+#cartes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.joueur {
-  width: 150px;
-  height: 200px;
+.carte {
+  width: 200px;
+  height: 300px;
   background-color: #fff;
-  border: 2px solid #004d80;
+  border: 2px solid #007bff;
   border-radius: 10px;
   margin: 10px;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 24px;
   font-weight: bold;
-  color: #004d80;
-  text-shadow: 1px 1px #f2f2f2;
-  box-shadow: 2px 2px #888888;
+  text-align: center;
+}
+
+.carte p {
+  margin: 20px;
 }
