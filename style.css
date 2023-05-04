@@ -27,3 +27,36 @@ a {
 a:hover {
   text-decoration: underline;
 }
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #004d80;
+}
+
+#joueurs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.joueur {
+  width: 150px;
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #004d80;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #004d80;
+  text-shadow: 1px 1px #f2f2f2;
+  box-shadow: 2px 2px #888888;
+}
