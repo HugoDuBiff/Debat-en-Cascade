@@ -1,0 +1,29 @@
+/* Couleur bleu marine */
+:root {
+  --primary-color: #0D47A1;
+  --secondary-color: #1976D2;
+  --tertiary-color: #BBDEFB;
+  --inverse-color: #FFF;
+}
+
+/* Style du corps de la page */
+body {
+  background-color: var(--inverse-color);
+  color: var(--primary-color);
+  font-family: Arial, sans-serif;
+}
+
+/* Style pour les en-têtes de section */
+h1, h2, h3 {
+  color: var(--secondary-color);
+}
+
+/* Style pour les liens */
+a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
