@@ -1,95 +1,29 @@
-/* Couleur de fond */
+/* Couleur bleu marine */
+:root {
+  --primary-color: #0D47A1;
+  --secondary-color: #1976D2;
+  --tertiary-color: #BBDEFB;
+  --inverse-color: #FFF;
+}
+
+/* Style du corps de la page */
 body {
-  background-color: #1a237e;
+  background-color: var(--inverse-color);
+  color: var(--primary-color);
+  font-family: Arial, sans-serif;
 }
 
-/* Couleurs du texte */
-body, input, select, textarea, button {
-  color: #fff;
+/* Style pour les en-têtes de section */
+h1, h2, h3 {
+  color: var(--secondary-color);
 }
 
-/* Liens */
+/* Style pour les liens */
 a {
-  color: #fff;
+  color: var(--tertiary-color);
   text-decoration: none;
-  border-bottom: 1px solid #fff;
 }
 
 a:hover {
-  color: #1a237e;
-  background-color: #fff;
-}
-
-/* Boutons */
-button {
-  background-color: #fff;
-  color: #1a237e;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #1a237e;
-  color: #fff;
-}
-
-/* Cartes */
-.card {
-  background-color: #fff;
-  color: #1a237e;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-
-.card:hover {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
-}
-
-/* Bordures */
-.border-top {
-  border-top: 1px solid #fff;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #fff;
-}
-
-.border-left {
-  border-left: 1px solid #fff;
-}
-
-.border-right {
-  border-right: 1px solid #fff;
-}
-
-/* Formulaires */
-input[type="text"], select {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  padding: 5px;
-  margin: 5px;
-}
-
-input[type="text"]:focus, select:focus {
-  outline: none;
-  border-bottom: 2px solid #fff;
-}
-
-textarea {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  padding: 5px;
-  margin: 5px;
-}
-
-textarea:focus {
-  outline: none;
-  border-bottom: 2px solid #fff;
+  text-decoration: underline;
 }
